@@ -16,7 +16,7 @@ export const Hero = () => {
                 </p>
                 <p className={style.heroSecondary}>
                     Evite falhas nas suas máquinas e torne o tempo de inatividade <br/>
-                    uma coisa do passado com o sistema preditivo da TRACT
+                    uma coisa do passado com o sistema preditivo da TRACTIAN
                 </p>
 
                 <a href="#" className={style.heroCTA}>
