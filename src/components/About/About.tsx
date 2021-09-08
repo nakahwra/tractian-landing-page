@@ -1,11 +1,9 @@
-import Iframe from 'react-iframe';
 
 import style from "./about.module.scss";
 
 export const About = () => {
     return (
         <section className={style.aboutContainer}>
-            <img src="images/wave-top-blue.svg"/>
 
             <h1>O que construímos</h1>
 
@@ -23,7 +21,16 @@ export const About = () => {
                     </p>
                 </div>
                 <div className={style.aboutContentVideo}>
-                    <Iframe url="https://www.youtube.com/embed/_6NLhkPMo9w"/>
+                    <iframe 
+                        // width="560" 
+                        // height="315" 
+                        src="https://www.youtube.com/embed/_6NLhkPMo9w" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen
+                    >
+                </iframe>
                 </div>
             </div>
         </section>
