@@ -2,7 +2,7 @@ import style from "./form.module.scss";
 
 export const Form = () => {
     return (
-        <section className={style.formContainer}>
+        <section id="form" className={style.formContainer}>
             <h1>Melhore seus processos de manutenção</h1>
             <p>Agende uma demonstração</p>
 
@@ -10,16 +10,16 @@ export const Form = () => {
                 <form>
                     <div className={style.personalInfo}>
                         <label htmlFor="name">Nome</label>
-                        <input id="name" type="text"/>
+                        <input id="name" type="text" placeholder="Insira seu nome"/>
 
                         <label htmlFor="occupation">Cargo</label>
-                        <input id="occupation" type="text"/>
+                        <input id="occupation" type="text" placeholder="Insira seu cargo"/>
 
                         <label htmlFor="email">E-mail profissional</label>
-                        <input id="email" type="email"/>
+                        <input id="email" type="email" placeholder="seu@email.com"/>
 
                         <label htmlFor="tel">Telefone</label>
-                        <input id="tel" type="tel"/>
+                        <input id="tel" type="tel" placeholder="(99) 99999-9999"/>
                     </div>
 
                     <span>Quantidade de pontos monitorados</span>

@@ -33,7 +33,9 @@
                 flex-direction: column;
 
                 background: linear-gradient(var(--blue-300), var(--blue-500));    
-                color: var(--white);         
+                color: var(--white);
+
+                transition: 0.2s;
 
                 img {
                     max-width: 80%;
@@ -51,6 +53,10 @@
 
                 & + .card {
                     margin-left: 1rem;
+                }
+
+                &:hover {
+                    transform: translate(0, -10px);
                 }
             }
         }

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import style from './hero.module.scss';
 
 export const Hero = () => {
@@ -19,11 +21,14 @@ export const Hero = () => {
                     uma coisa do passado com o sistema preditivo da TRACTIAN
                 </p>
 
-                <a href="#" className={style.heroCTA}>
-                    <strong>
-                        Agendar demonstração
-                    </strong>
-                </a>
+                <Link href="#form">
+                    <a className={style.heroCTA}>
+                        <strong>
+                            Agendar demonstração
+                        </strong>
+                    </a>
+                </Link>
+                
             </div>
         </div>
     )
