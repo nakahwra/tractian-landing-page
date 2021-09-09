@@ -49,8 +49,8 @@ export const Form = () => {
                                 </label>
                         </div>
                     </div>
-
-                    <button>Agendar demonstração</button>
+                    
+                    <button type="submit" >Agendar demonstração</button>
                 </form>
             </div>
         </section>
