@@ -10,7 +10,7 @@ export const Product = () => {
             <div className={style.productContent}>
                 <div className={style.cardContainer}>
                     {steps.map(step => (
-                        <div className={style.card}>
+                        <div key={step.title} className={style.card}>
                             <img src={step.img}/>
                             <div>
                                 <strong>{step.title}</strong>
