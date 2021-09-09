@@ -1,0 +1,17 @@
+[
+    {
+        "img": "images/enviamos-sensores.png",
+        "title": "Enviamos os sensores",
+        "content": "Fazemos a entrega pelos Correios para o Brasil todo. Você recebe o sensor na sua empresa. Não necessita passar pelo Wi-Fi industrial e nem falar com a TI."
+    },
+    {
+        "img": "images/cole-na-maquina.png",
+        "title": "Cole em suas máquinas",
+        "content": "Nosso sensor é colado na máquina como um bandaid. Ele é responsável por transmitir os dados de vibração e temperatura do equipamento para a plataforma."
+    },
+    {
+        "img": "images/receba-insights.png",
+        "title": "Receba Insights valiosos",
+        "content": "Nosso sistema centraliza informações precisas sobre suas máquinas, com insights e análises, como saúde do equipamento, detecção de anomalias e variação de espectros."
+    }
+]
