@@ -10,7 +10,7 @@ export default function Home() {
       <BorderShape path="images/wave-top-blue.svg" background="#fff" />
       <About />
       <Product />
-      <BorderShape path="images/wave-bottom-blue.svg" background="#f4f4f5" />
+      <BorderShape path="images/wave-bottom-blue.svg" background="#f4f4f5" bottom={true} />
     </>
   )
 }
